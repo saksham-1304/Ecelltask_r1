@@ -1,0 +1,184 @@
+* {
+    font-family: "Public Sans", sans-serif;
+    /*  margin: 0;
+    padding: 0; */
+    
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 80%, 95%);
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    background-color: hsl(0, 0%, 100%);
+
+
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 33px;
+    color: hsl(0, 21%, 88%);
+    /* border: 1.50px solid black; */
+}
+
+.navbar ul li a {
+    color: hsl(216, 8%, 87%);
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.navbar ul li a:hover {
+    border-bottom: 4px solid hsl(233, 8%, 62%);
+    color: hsl(233, 8%, 62%);
+
+}
+
+.head button {
+
+    background-color: hsl(222, 5%, 59%);
+    justify-content: space-around;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 2px;
+}
+
+
+
+
+
+
+.hamburger a {
+    position: absolute;
+    right: 0;
+}
+
+.image {
+    float: left;
+    position: absolute;
+
+}
+
+/* .image1 {
+    z-index: 0;
+    
+
+
+}
+
+
+.image2 {
+    z-index: 1;
+     */
+
+
+
+.item {
+    width: 45vw;
+}
+
+.item p {
+    color: hsl(233, 8%, 62%);
+}
+
+
+
+body {
+
+    margin-top: 0px;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    /*  border: 2px solid red; */
+    padding: 8px;
+
+}
+
+.button {
+    border: none;
+}
+
+
+
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(0, 0%, 100%);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.icons a img:hover{
+   background-color:hsl(136, 65%, 51%);
+}
+
+.footeritems {
+    list-style: none;
+
+
+.footeritems li {
+        display: inline;
+
+    }
+
+.footeritems ul li a {
+        text-decoration: none;
+    }
+
+.icons a {
+        margin-right: 10px;
+    }
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+    }
+
+    
+    .features {
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw ;
+        grid-gap: 30px;    
+/* CSS for articles */
+
+.article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+
+
+    @media (max-width: 375px) {
+        .navbar{
+            display: none;
+
+        }
+    }
